@@ -29,7 +29,7 @@ public class MajorityElementInArray {
 				maxKey = entry.getKey();
 			}
 		}
-		System.out.println("key " + maxKey + " has max value: " + maxValue);
+		System.out.println("key " + maxKey + " has majority value: " + maxValue);
 		
 	}
 	

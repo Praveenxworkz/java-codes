@@ -7,7 +7,7 @@ public class PrimeNumberFrom_1_To_100 {
 		int count = 0;
 		
 		for(int i = 2; i < 100; i++) {
-			for(int j = 2; j <= i-1; j++) {
+			for(int j = 2; j < i; j++) {
 			if(i % j == 0) {
 				count ++;
 			   }
